@@ -1,19 +1,16 @@
-machine:
-  java:
-    version:
-      oraclejdk5
-
-dependencies:
-  post:
-    - ./grailsw clean --non-interactive
-    - ./grailsw package --non-interactive
-
-  cache_directories:
-    - ~/.grails
-
-test:
-  override:
-    - ./grailsw test-app --non-interactive
-  post:
-    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
-    - find . -type f -regex ".*/target/test-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
+version: 2
+jobs:
+  build:
+    docker:
+      - image: debian:stretch
+    steps:
+      - checkout
+      - run:
+          name: Greeting
+          command: echo Hello, world.
+      - run:
+          name: Print the Current Time
+          command: date
+      - run:
+          name: Get grails to test
+          command: grails test-app

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Dublin" name="grailstest.ControllaControllerTests" tests="1" time="0.409" timestamp="2018-07-19T11:46:27">
+<testsuite errors="0" failures="0" hostname="Dublin" name="grailstest.ControllaControllerTests" tests="1" time="0.427" timestamp="2018-07-19T12:07:24">
   <properties />
-  <testcase classname="grailstest.ControllaControllerTests" name="testSomething" time="0.399" />
+  <testcase classname="grailstest.ControllaControllerTests" name="testSomething" time="0.415" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--

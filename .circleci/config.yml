@@ -12,5 +12,5 @@ jobs:
           name: Print the Current Time
           command: date
 	  - run:
+		  name: Get grails to test
           command: grails test-app
-	

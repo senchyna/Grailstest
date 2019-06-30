@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites />
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Dublin" id="0" name="ControllaControllerTests" package="grailstest" tests="1" time="0.427" timestamp="2018-07-19T12:07:24">
+      <properties />
+
+      <testcase classname="grailstest.ControllaControllerTests" name="testSomething" time="0.415" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Dublin" id="1" name="MainTests" package="grailstest" tests="1" time="0.0040" timestamp="2018-07-19T12:07:25">
+      <properties />
+
+      <testcase classname="grailstest.MainTests" name="testSomething" time="0.0010" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
